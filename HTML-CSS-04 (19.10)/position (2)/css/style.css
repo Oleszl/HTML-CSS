@@ -1,0 +1,21 @@
+.container {
+    border-color: silver;
+    border-radius: 5px;
+    border-style: solid;
+    overflow: scroll;
+    height: 250px;
+    width: 250px;
+    padding-left: 100px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 25px;
+    left: 20px;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: solid;
+    height: 200px;
+    width: 60px;
+    
+}
