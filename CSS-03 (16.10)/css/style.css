@@ -1,0 +1,35 @@
+*{
+    background-image: url("../picture/34f9934f-7920-4187-8e1b-b69bed09cb7d.png");
+    /* Full height */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footer h1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.city-name{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.footer img{
+    width: 300px;
+    height: 250px;
+}
+.underline-text{
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+}
+.text-line-through{
+    text-decoration: line-through;
+}
