@@ -1,0 +1,30 @@
+.fa-star {
+    color: blue;
+}
+
+.fa-check-circle {
+    color: rgb(7, 207, 41);
+}
+
+.main {
+    background-color: #ffdfc4;
+    height: 220px;
+    width: 780px;
+}
+
+.element {
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+.fa-star:hover {
+    color: black;
+}
+
+.fa-check-circle:hover {
+    color: red;
+}
+.fa-shopping-cart:hover{
+    color:orange;
+}
