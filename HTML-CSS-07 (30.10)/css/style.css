@@ -1,0 +1,211 @@
+body, html {
+    height: 100%;
+    
+    
+  }
+  body {
+    background-image: url(../images/bg.jpg); 
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-text{
+    font-weight: bold;
+    font-family: AkzidenzGrotesk;
+    text-align: center;
+    padding: 65px;
+    color: #00264d;
+    font-size: 22px;
+}
+.social-network-button{
+    text-align: center;
+    
+}
+#Log-Facebook{
+    
+    background: linear-gradient(#0d76be, #0d63ab);
+    color: white;
+    border: 0px;
+    margin-right: 5px;
+    height: 35px;
+    width: 200px;
+    position: relative;
+}
+.social-network-button img{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    padding-right: 3px;
+}
+
+#Log-Twitter{
+    position: relative;
+    background: linear-gradient(#57d5ff, #17ade0);
+    background-repeat: no-repeat;
+    color: white;
+    border: 0px;
+    height: 35px;
+    width: 200px;
+}
+.facebook-line{
+    border-left: 1px solid rgba(0, 0, 0,0.2);
+    height: 35px;
+    position: absolute;
+    left: 15%;
+    top: 0;
+}
+.twitter-line{
+    border-left: 1px solid rgba(0, 0, 0,0.2);
+    height: 35px;
+    position: absolute;
+    left: 20%;
+    top: 0;
+}
+.decoration{
+    border-bottom: 1px solid rgba(235, 235, 235,0.8);
+    text-align:  center; 
+    width: 190px;
+    margin: auto; 
+    padding-top: 20px;
+    color: black;
+    
+}
+.round {
+    width: 2em;
+    height: 2em;
+    border: 2px solid  rgba(235, 235, 235,0.8);
+    border-radius: 50%;
+    line-height: 2em; 
+    text-align: center;  
+    background:   rgba(235, 235, 235,0.8);
+    position: absolute;
+    top: -18px;
+    left: 40%;
+
+  }
+.line{
+    position: relative;
+    margin-top: 22px;
+}
+
+
+.login-form{
+    margin-top: 30px;
+    text-align: center;
+}
+input[type="text"] {
+    padding:3px 15px;
+    border: 0px;
+    display: block;
+    margin: auto;
+    color: #797979;
+    background-color: #ebebeb;
+    margin: auto;
+    margin-top: 20px;
+    height: 27px;
+    width: 225px;
+    background-image: url(../images/user-icon.png);
+    background-repeat: no-repeat;
+    background-position: right 4% top 50%;
+
+}
+
+input[type="password"]{
+    padding:3px 15px;
+    border: 0px;
+    display: block;
+    margin: auto;
+    color: #797979;
+    background-color: #ebebeb;
+    margin: auto;
+    margin-top: 20px;
+    height: 27px;
+    width: 225px;
+    background-image: url(../images/password-icon.png);
+    background-repeat: no-repeat;
+    background-position: right 4% top 50%;
+
+}
+input[type="text"]:focus {
+    padding:3px 15px;
+    color: #007eff;
+    outline-style: none;
+    border: 2px solid #007eff;
+    background-image: url(../images/user-icon-active.png);
+    background-repeat: no-repeat;
+    background-position: right 4% top 50%;
+    
+}
+
+input[type="password"]:focus{
+    padding:3px 15px;
+    outline-style: none ;
+    color: #007eff;
+    border: 2px solid #007eff;
+    background-image: url(../images/password-icon-active.png);
+    background-repeat: no-repeat, repeat;
+    background-position: right 4% top 50%;
+}
+.username-input , .password-input{
+    position: relative;
+}
+input[type="password"]:focus::placeholder, input[type="text"]:focus::placeholder{
+    color: #007eff;
+
+}
+
+
+.username-input span, .password-input span{
+    position: absolute;
+    right: 44%;
+    top: 9%;
+    border: 1px solid silver;
+    height: 27px;
+}
+.remember-form{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.remember-form a{
+    padding-left: 35px;
+    color: white;
+    text-decoration: none;
+}
+.submit-button{
+    margin-top: 30px;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #254e77;
+    height: 30px;
+    width: 225px;
+}
+.sign-up{
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+}
+.sign-up a{
+    text-decoration: none;
+    color: #0d76be;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: "AkzidenzGrotesk";  
+    src: url("../fonts/akzidenzgroteskpro-bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold;
+}
+
