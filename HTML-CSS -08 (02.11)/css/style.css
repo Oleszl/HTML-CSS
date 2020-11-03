@@ -1,0 +1,304 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color:silver;
+    padding: 0; margin: 0;
+}
+
+.under-header {
+    display: block;
+    height: 12%;
+    width: 100%;
+    background-color: #2c353b;
+    
+    color: white;
+    position: relative;
+    line-height: 0px;
+}
+.header-info{
+padding-top: 20px;
+}
+.under-header p {
+    color: silver;
+}
+.under-header h2> span{
+    color: #960e19;
+}
+.under-header h2{
+    margin-top: 13px;
+}
+
+#search-image {
+    position: absolute;
+    right: -20%;
+    outline: none;
+    background-color: #b00000;}
+
+.header-info {
+    position: absolute;
+    left: 15%;
+    top: 0%;
+}
+
+.search {
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    border-radius: 4px;
+}
+
+.search input[type="search"] {
+    background-color:black;
+    outline: rgba(255,140,0,0.5);
+    border: 1px solid 	rgba(255,140,0,0.5);
+    height: 2em;
+        padding: 5px;
+        color: white;
+}
+header {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 40%;
+    background-image: url(../images/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+header h2{
+        margin-bottom: 0px;
+        
+}
+header h2 span{
+    color: #960e19   ;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+header span{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header-text p {
+    margin: 0px;
+    max-width: 500px;
+}
+
+nav {
+    display: inline;
+    background-color:#960e19
+    ;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: right;
+}
+
+input[type="submit"] {
+    color: white;
+    display: inline;
+    margin: 5px 20.8px;
+    border: 0;
+    outline: none;
+    background-color: #960e19
+    ;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
+
+ 
+
+}
+.header-text{
+    padding: 35px;
+}
+main{
+    width: 70%;
+    height: 124%;
+    margin: auto;
+    background-color:white;
+}
+form{
+    margin: 5px 20px;
+    background-color: rgba(211,211,211,0.6);
+    border: 2px solid  rgba(211,211,211,0.6);
+    display: block;
+    height: 50%;
+    width: 23%;
+    float: left;
+    
+}
+form h2{
+    margin: 10px;
+}
+main form input{
+ display: block;
+    height: 8%;
+    width: 70%;
+    margin: 10px;
+    background-color: rgba(211,211,211,0.4);
+    outline: none;
+    border: 0px;
+
+    
+}
+main{
+    position: relative;
+}
+main form select{
+    margin: 10px;
+    display: block;
+    height: 8%;
+    width: 71%;
+}
+#form-submit-button{
+    margin: 10px;
+}
+main h2>span{
+    color: #b00000; ;
+}
+main h2{
+    color: silver;
+}
+
+main section h4{
+    display: inline;
+    padding: 5px 80px;
+    text-align: center;
+}
+
+main div img{
+    padding: 5px 19px;
+    
+}
+
+
+.div1, .div2, .div3{
+   float: left;
+   margin-right: 30px;
+}
+
+table, th, td {
+    padding: 8px 13px;
+  }
+
+  table{
+      width: 70%;
+      height: 50%;
+      margin-left: 275px;
+  }
+th{
+    
+    background-color: #9d4556
+    ; 
+    color: white;
+    text-align: center;
+}
+td{
+    
+    background-color: #2c353b; 
+    color: silver;
+    text-align: center;
+}
+
+.HeadLine-section{
+    clear:left;
+    height: 28%;
+    width: 20%;
+    float: left;
+    margin: 0px;
+    padding-left: 25px; 
+}
+footer{
+    background-color: #2c353b;
+    height: 30%;
+    width: 100%;
+    position: relative;
+}
+td:last-child{
+    color:#85616b;
+    text-decoration: underline;
+    
+}
+.red-line{
+    width: 100%;
+    height: 10%;
+    background-color:#9d4556   ;
+    display: block; 
+}
+
+footer h2 {
+    color: white;
+}
+footer h2 span {
+    color:#85616b;
+}
+.block1{
+    position: absolute;
+    left: 16%;
+    top: 0%;
+    color: silver;
+    fill: #960e19;
+    display: inline;
+    
+}
+.block1 li{
+    fill: #960e19;
+    list-style-image: url(../images/time.svg);
+    margin: 4px;
+}
+
+.block2{
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    color: silver;
+    fill: #960e19;
+    display: inline;
+    
+    
+}
+.block2 li{
+    margin: 4px;
+
+}
+li::before{
+    color: #960e19;
+}
+.block2 p{
+    color: white;
+}
+.block3{
+    position: absolute;
+    left: 70%;
+    top: 0%;
+    color: silver;
+    fill: #960e19;
+    display: inline;
+}
+.block3 p{
+    margin: 4px;
+}
+.block3 a{
+    color:#85616b;
+}
+.table-section h2{
+    margin: 8px 290px;
+padding-top:155px ;}
+
+
+
+
+
+
+
+
+
+
