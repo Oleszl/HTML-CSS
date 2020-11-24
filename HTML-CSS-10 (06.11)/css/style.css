@@ -1,0 +1,385 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+header h1{
+    font-family: 'Alpha Echo';
+    text-align: center;
+    font-size: 28px;
+}
+header nav{
+    margin: 20px;
+    text-align: center;
+}
+header nav input[type="submit"]{
+    margin: 0px 25px;
+    padding: 8px 15px;
+    text-align: center;
+    color:silver;
+    background-color: white;
+    border: 0px;
+    outline: 0px;
+
+}
+header nav input[type="submit"]:hover{
+    background-color: #cd0042;
+    color: white;
+    border: 0px;
+    outline: 1px solid #cd0042;
+}
+
+main{
+    width: 45%;
+    height: 80%;
+    background-color: white;
+}
+article{
+    width: 100%;
+    height: 60%;
+   
+}
+.main-photo{
+    width: 100%;
+    height: 13%;
+    margin: 0;
+}
+
+article h1 {
+    margin: 15px 20px;
+    font-weight: bold;
+    font-size: 21px;
+}
+article h2 {
+    margin: 15px 20px;
+    font-weight: bold;
+    font-size: 19px;
+}
+article p{
+    margin: 10px 20px;
+}
+article h1+p{
+    color: silver;
+}
+aside h2 {
+    margin: 15px 20px;
+    font-weight: bold;
+    font-size: 19px;
+}
+aside p{
+    margin: 10px 20px;
+}
+
+aside img{
+    width: 100%;
+}
+aside input[type="submit"]{
+    margin: 10px 20px;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    display: inline;
+    margin-bottom: 50px;
+
+}
+aside a{
+    margin: 10px 50px;
+    color: red;
+    display: block;
+}
+.test{
+    display: inline;
+    width: 25%; 
+    height: 10%;
+    margin: 0px 25px;
+    background-color: white;
+}
+
+.all-content{
+    display: flex;
+    justify-content: center;
+    
+}
+footer{
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+footer a{
+    margin: 7px 5px;
+    color: #b6b3af    ;
+    display: list-item;
+    list-style-type: none;
+}
+footer h1 {
+    margin: 15px 20px;
+    font-weight: bold;
+    font-size: 21px;
+}
+.icons img{
+    height: 11%;
+    width: 11%;
+margin-left: 12px;}
+a:hover{
+    text-decoration: none;
+}
+.aside-border{
+
+    width: 80%;
+    display: block;
+    height: 0px;
+    border: 0.5px solid #7c7b7b;
+    outline: none;
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+.footer-border{
+
+    width: 100%;
+    display: block;
+    height: 0px;
+    border: 0.5px solid #a0a0a0
+    ;
+    outline: none;
+    margin: 15px 0px;
+
+
+}
+
+.email , .phone, .address{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 15px 0px;
+    
+}
+footer h1{
+    font-size: 28px;
+}
+footer h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width:1280px){
+    main{
+        width: 40%;
+    }
+    .test{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:1170px){
+    main{
+        width: 35%;
+    }
+    .test{
+        width: 25%;
+    }
+}
+@media only screen and (max-width:1024px){
+    
+    
+    .all-content{
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .test{
+        display: inline-flex;
+        order: 1;
+        width: 80%;
+    }
+    main{
+        margin: 50px;
+        order: 2;
+        width: 65%;
+        
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .all-content{
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .test{
+        display: inline-flex;
+        order: 1;
+        width: 85%;
+    }
+    main{
+        margin: 10px;
+        order: 2;
+        width: 75%;
+        
+    }
+    .test{
+        display: block;
+        width: 65%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-text1{
+        width: 60%;
+        margin: 0px auto;
+    }
+    .footer-text2{
+        width: 60%;
+        margin: 0px auto;
+    }
+    .footer-text3{
+        width: 60%;
+        margin: 0px auto;
+    }
+    .footer-border{
+        width: 80%;
+    display: block;
+    height: 0px;
+    border: 0.5px solid #a0a0a0
+    ;
+    outline: none;
+    margin: auto;
+    margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    header{
+        width: 100%;
+    }
+    header h1 {
+        margin: 0px auto;
+    }
+    .all-content{
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .test{
+        display: inline-flex;
+        order: 1;
+        width: 95%;
+    }
+    main{
+        margin: 10px;
+        order: 2;
+        width: 85%;
+        
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    header nav input[type="submit"]{
+        display: block;
+        margin: 0px auto;
+    }
+    .footer-text1{
+        width: 60%;
+        margin: 0px auto;
+    }
+    .footer-text2{
+        width: 60%;
+        margin: 0px auto;
+    }
+    .footer-text3{
+        width: 60%;
+        margin: 0px auto;
+    }
+    .footer-border{
+        width: 80%;
+    display: block;
+    height: 0px;
+    border: 0.5px solid #a0a0a0
+    ;
+    outline: none;
+    margin: auto;
+    margin-top: 15px;
+    }
+    .test{
+        display: block;
+        width: 65%;
+    }
+}
+
+
+
+
+
+
+@font-face {
+    font-family : 'Alpha Echo'; 
+    src: url(../fonts/alpha_echo.ttf);
+   }
